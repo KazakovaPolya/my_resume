@@ -6,7 +6,6 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  /*background-image: url("img/20220506_174029.jpg");*/
   background-repeat: no-repeat;
   background-position: top center;
   text-align: center;
@@ -21,7 +20,7 @@ body {
 .page-header {
   margin: 0 0 50px;
   padding: 32px 0 32px;
-  background-image: url("img/20220506_174029.jpg");
+  background-image: url("img/hero-bg.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
@@ -34,12 +33,10 @@ body {
   text-align: right;
 }
 .me{
-  /*width: 100%;
-  margin: 0 auto;
-  /*padding: 0 20px;*/
   text-align: center;
   display: flex;
 }
+
 .contact a {
   color: #131212;
   text-decoration: none;
@@ -48,10 +45,11 @@ body {
 }
 
 .contact{
-  border: 1px solid #288be6;
+  border: 1px solid #00417d;
   text-align: center;
   height: auto;
   width: auto;
+  font-size: 1vw;
   margin-right: 10px;
   margin-left: 20px;
   box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
@@ -109,19 +107,15 @@ body {
 }
 
 #about{
-  /*margin-bottom: 20px;
-  padding: 10px;*/
   border: 1px solid #00417d;
   display: inline-block;
-  width: 70%;
-  /*height: auto;
-  /*vertical-align: baseline;
-  margin-right: -0%;*/
+  width: 70vw;
+  height: auto;
   padding: 10px;
   background-color: #cbddec;
-  margin-left: 50px;
-  margin-bottom: 50px;
-  margin-right: 50px;
+  margin: 0 50px 0;
+  font-size: 1.5vw;
+  line-height: 40px;
   box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
 }
 
@@ -132,10 +126,6 @@ body {
 .download{
   float: right;
 }
-
-/*.git{
-  margin-right: 10px ;
-}*/
 
 .heading {
   margin: 0 0 16px;
@@ -167,19 +157,17 @@ body {
 }
 
 .user-image {
-  /*margin: 0 0 32px;*/
   text-align: center;
   border-radius: 50%;
   border: 2px solid #00417d;
 }
 
-.portfolio{
+/*.portfolio{
   margin-top: 50px;
   text-align: center;
-}
+}*/
 
-.intro h3,
-.portfolio h3 {
+.intro h3 {
   margin: 0 0 12px;
   font-size: 28px;
   line-height: 40px;
@@ -192,7 +180,6 @@ body {
 }
 
 #ed_sk{
-  /*width: 100%;*/
   padding: 20px;
   display: flex;
   text-align: center;
@@ -208,7 +195,7 @@ body {
   margin-right: 50px;
   line-height: 25px;
   font-weight: 19px;
-  font-size: 15px;
+  font-size: 1.3vw;
   box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
 }
 
@@ -256,16 +243,12 @@ body {
 }
 
 #skills{
-  /*text-align: center;*/
   display: inline-block;
   width: 40%;
-  /*margin-right: -0%;
-  /*vertical-align: top;*/
   padding: 20px;
   border: 1px solid #00417d;
   height: auto;
   box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
-  /*margin-right: 30px;*/
 }
 
 .skills-list {
@@ -304,29 +287,6 @@ body {
   line-height: 20px;
 }
 
-.portfolio {
-  margin: 0 0 120px;
-}
-
-.projects {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.projects li {
-  margin: 0 0 80px;
-}
-
-.project-image {
-  margin: 0 0 24px;
-  text-align: center;
-}
-
-.projects p {
-  margin: 0 0 24px;
-}
-
 .button {
   padding: 6px 20px;
   display: inline-block;
@@ -352,14 +312,4 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
-}
-
-.footer-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
-}
-
-.footer-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
 }
